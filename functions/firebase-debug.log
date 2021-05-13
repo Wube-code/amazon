@@ -1,0 +1,75 @@
+[debug] [2021-03-05T03:24:25.815Z] ----------------------------------------------------------------------
+[debug] [2021-03-05T03:24:25.818Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Wubem\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-03-05T03:24:25.819Z] CLI Version:   9.5.0
+[debug] [2021-03-05T03:24:25.819Z] Platform:      win32
+[debug] [2021-03-05T03:24:25.819Z] Node Version:  v14.16.0
+[debug] [2021-03-05T03:24:25.822Z] Time:          Thu Mar 04 2021 22:24:25 GMT-0500 (Eastern Standard Time)
+[debug] [2021-03-05T03:24:25.822Z] ----------------------------------------------------------------------
+[debug] [2021-03-05T03:24:25.822Z] 
+[debug] [2021-03-05T03:24:25.829Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-05T03:24:25.830Z] > authorizing via signed-in user
+[debug] [2021-03-05T03:24:25.830Z] [iam] checking project from-38f94 for permissions ["firebase.projects.get"]
+[debug] [2021-03-05T03:24:25.833Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-05T03:24:25.834Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-05T03:24:25.994Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Fri, 05 Mar 2021 03:24:26 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-05T03:24:26.003Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/from-38f94:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-03-05T03:24:26.253Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 05 Mar 2021 03:24:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=88","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2021-03-05T03:24:26.272Z] defaultcredentials: writing to file C:\Users\Wubem\AppData\Roaming\firebase\wubserashm_gmail_com_application_default_credentials.json
+[debug] [2021-03-05T03:24:26.274Z] DEBUG: Setting GAC to C:\Users\Wubem\AppData\Roaming\firebase\wubserashm_gmail_com_application_default_credentials.json
+[debug] [2021-03-05T03:24:26.275Z] > refreshing access token with scopes: []
+[debug] [2021-03-05T03:24:26.275Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-05T03:24:26.383Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Fri, 05 Mar 2021 03:24:26 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-05T03:24:26.388Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/from-38f94/adminSdkConfig [none]
+[debug] [2021-03-05T03:24:26.632Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/from-38f94/adminSdkConfig 200
+[debug] [2021-03-05T03:24:26.632Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/from-38f94/adminSdkConfig {"projectId":"from-38f94","storageBucket":"from-38f94.appspot.com","locationId":"us-central"}
+[debug] [2021-03-05T03:24:26.644Z] [functions] Watching "C:\Users\Wubem\OneDrive\Desktop\fromamazon\from-amazon\functions" for Cloud Functions...
+[debug] [2021-03-05T03:24:26.660Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-03-05T03:24:26.660Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-03-05T03:24:26.660Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-03-05T03:24:26.661Z] DEBUG: [worker-~diagnostic~-0e7a605e-bc3a-49dd-a4fc-8799be252886]: Assigning socketPath: \\?\pipe\C:\Users\Wubem\OneDrive\Desktop\fromamazon\from-amazon\functions\19812
+[debug] [2021-03-05T03:24:26.661Z] DEBUG: [worker-~diagnostic~-0e7a605e-bc3a-49dd-a4fc-8799be252886]: BUSY
+[debug] [2021-03-05T03:24:26.902Z] DEBUG: [runtime-status] [19812] Functions runtime initialized. {"cwd":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions","node_version":"14.16.0"}
+[debug] [2021-03-05T03:24:26.904Z] DEBUG: [runtime-status] [19812] Disabled runtime features: undefined
+[debug] [2021-03-05T03:24:26.908Z] DEBUG: [runtime-status] [19812] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-03-05T03:24:26.910Z] DEBUG: [runtime-status] [19812] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:24:26.913Z] DEBUG: [runtime-status] [19812] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:24:26.915Z] DEBUG: [runtime-status] [19812] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-03-05T03:24:26.915Z] DEBUG: [runtime-status] [19812] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:24:26.992Z] DEBUG: [runtime-status] [19812] Checked functions.config() {"config":{}}
+[debug] [2021-03-05T03:24:26.992Z] DEBUG: [runtime-status] [19812] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2021-03-05T03:24:26.993Z] DEBUG: [runtime-status] [19812] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:24:26.999Z] DEBUG: [runtime-status] [19812] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-03-05T03:24:26.999Z] DEBUG: [runtime-status] [19812] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:24:27.000Z] DEBUG: [runtime-status] [19812] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2021-03-05T03:24:27.382Z] [functions[api]] http function initialized (http://localhost:5000/from-38f94/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2021-03-05T03:24:27.402Z] DEBUG: [worker-~diagnostic~-0e7a605e-bc3a-49dd-a4fc-8799be252886]: IDLE
+[debug] [2021-03-05T03:27:12.256Z] DEBUG: File C:\Users\Wubem\OneDrive\Desktop\fromamazon\from-amazon\functions\index.js changed, reloading triggers
+[debug] [2021-03-05T03:27:13.257Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2021-03-05T03:27:13.258Z] DEBUG: [worker-~diagnostic~-0e7a605e-bc3a-49dd-a4fc-8799be252886]: FINISHING
+[debug] [2021-03-05T03:27:13.267Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-03-05T03:27:13.267Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2021-03-05T03:27:13.267Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-03-05T03:27:13.267Z] DEBUG: [worker-~diagnostic~-a5bc6689-53e2-4e34-bf89-684f41b396f8]: Assigning socketPath: \\?\pipe\C:\Users\Wubem\OneDrive\Desktop\fromamazon\from-amazon\functions\26140
+[debug] [2021-03-05T03:27:13.267Z] DEBUG: [worker-~diagnostic~-a5bc6689-53e2-4e34-bf89-684f41b396f8]: BUSY
+[debug] [2021-03-05T03:27:13.268Z] DEBUG: [worker-~diagnostic~-0e7a605e-bc3a-49dd-a4fc-8799be252886]: exited
+[debug] [2021-03-05T03:27:13.268Z] DEBUG: [worker-~diagnostic~-0e7a605e-bc3a-49dd-a4fc-8799be252886]: FINISHED
+[debug] [2021-03-05T03:27:13.475Z] DEBUG: [runtime-status] [26140] Functions runtime initialized. {"cwd":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions","node_version":"14.16.0"}
+[debug] [2021-03-05T03:27:13.477Z] DEBUG: [runtime-status] [26140] Disabled runtime features: undefined
+[debug] [2021-03-05T03:27:13.480Z] DEBUG: [runtime-status] [26140] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.481Z] DEBUG: [runtime-status] [26140] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.483Z] DEBUG: [runtime-status] [26140] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.485Z] DEBUG: [runtime-status] [26140] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-03-05T03:27:13.486Z] DEBUG: [runtime-status] [26140] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.570Z] DEBUG: [runtime-status] [26140] Checked functions.config() {"config":{}}
+[debug] [2021-03-05T03:27:13.570Z] DEBUG: [runtime-status] [26140] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2021-03-05T03:27:13.571Z] DEBUG: [runtime-status] [26140] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.574Z] DEBUG: [runtime-status] [26140] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.576Z] DEBUG: [runtime-status] [26140] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2021-03-05T03:27:13.576Z] DEBUG: [runtime-status] [26140] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.5.0","resolution":"C:\\Users\\Wubem\\OneDrive\\Desktop\\fromamazon\\from-amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2021-03-05T03:27:13.744Z] DEBUG: [worker-~diagnostic~-a5bc6689-53e2-4e34-bf89-684f41b396f8]: IDLE
